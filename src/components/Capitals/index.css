@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.countries-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #93c5fd;
+}
+.country-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 40%;
+  height: 40%;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.selector {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  margin-right: 15px;
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+.heading {
+  font-family: Roboto;
+  font-size: 35px;
+  color: #323f4b;
+  text-align: center;
+}
+.selector-con {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+.country-name {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+}
